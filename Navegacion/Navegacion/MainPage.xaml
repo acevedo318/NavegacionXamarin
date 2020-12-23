@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.MainPage"
+             Title="Main Page">
+
+    <StackLayout>
+        <Button WidthRequest="200" HeightRequest="200" Text="Ir a pagina 2"
+                Clicked="GoToPage2"></Button>
+    </StackLayout>
+
+</ContentPage>

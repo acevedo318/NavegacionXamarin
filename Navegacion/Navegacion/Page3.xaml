@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.Page3"
+             Title="Page 3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnAnterior" Text="Ir a pagina Anterior"
+                    Clicked="btnAnterior_Clicked"></Button>
+            <Button x:Name="btnInicio" Text="Regresar a inicio"
+                    Clicked="btnInicio_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
